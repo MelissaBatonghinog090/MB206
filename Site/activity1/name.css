@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    background-color:paleturquoise
+  }
+  
+  section {
+    border: 1px red solid;
+    width: 33.33%;
+    float:left;
+    position:relative;
+  
+    padding: 10px;
+    padding-top: 60px;
+    color:palevioletred;
+    background-color:lightyellow;
+  }
+  p {
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 75px;
+    font-family: monospace;
+  }
+  
+  section > span {
+    background-color: skyblue;
+  }
+  
+  span p.title {
+    font-weight: italic;
+  }
+  
+  span {
+    border: 1px blue solid;
+    position: static;
+    width: 35%;
+    height: 30%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
